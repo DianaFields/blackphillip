@@ -29,34 +29,36 @@ body{
 			left: 0;
 			top: 0;
 			bottom: 0;
-			width: 30%;
-			padding: 0 2em;
+			width: 20%;
+			padding: 0 1em;
 			ul{
+
+				padding:0;
 				li{
-					height: 50px;
+					height: 40px;
 					width: auto;
 					list-style: none;
-					margin: 20px 0;
+					margin: 15px 0;
 					a{
 						background: #000;
-						line-height: 50px;
-						height: 50px;
+						line-height: 40px;
+						height: 40px;
 						color: #fff;
 						font-family: 'Lekton', sans-serif;
-						font-size: 25px;
+						font-size: 20px;
 						font-weight: 700;
-						padding: 10px 30px;
+						padding: 10px 20px;
 					}
 				}
 			}
 			.message{
-				padding-left: 83px;
+				padding-left: 30px;
 				line-height: 50px;
 				height: 50px;
 				cursor: pointer;
 				p{
 					text-decoration: underline;
-					font-size: 20px;
+					font-size: 16px;
 					font-family: 'Lekton', sans-serif;
 				}
 				.dropdown-menu{
@@ -64,7 +66,7 @@ body{
 					border:0;
 				}
 				form{
-					width: 60%;
+					width: 90%;
 					margin: 0 auto;
 					input{
 						height: 40px;
@@ -74,6 +76,11 @@ body{
 						border:1px solid #000;
 						margin: 10px 0;
 						padding-left: 10px;
+					}
+					textarea{
+						width: 100%;
+						-webkit-appearance:none;
+						border:1px solid #000;
 					}
 					.send{
 						background: #f4e53a;
@@ -86,7 +93,7 @@ body{
 					font-family: 'Glyphicons Halflings';
 					content: '\2709';
 					position: absolute;
-					left: 2em;
+					left: 0;
 					top: 0;
 					font-size: 20px;
 				}
@@ -180,11 +187,10 @@ body{
 				.image{
 					height: 300px;
 					width: 100%;
-					margin: 0 auto;
-					margin: 20px 0;
+					margin: 0;
 				}
 				.image-01{
-					background:url('../images/portfolio/min-pet.jpg');
+					background:url('../images/portfolio/img-01.jpg');
 					background-size: cover;
 					background-position: 50%;
 				}
@@ -236,6 +242,7 @@ body{
 				.item{
 					cursor: pointer;
 					position: relative;
+					padding: 0;
 					.portfolio-hover{
 						position: absolute;
 						width: 100%;
@@ -288,20 +295,25 @@ body{
 			}
 			.collaboration{
 				font-family: 'Lekton', sans-serif;
+				video{
+					width: 100%;
+				}
 			}
 		}
 	}
 	.coffee{
-		width: 100%;
-		height: 100px;
-		background:#a9eae4;
+		height: 130px;
+		background:#fff;
 		text-align: center;
 		overflow: hidden;
+		position: fixed;
+		left: 0;
+		bottom: 0;
 		video{
-			width: 300px;
+			width: 180px;
 			height: auto;
 			bottom: 0;
-			margin-top: -5em;
+			margin-top: 2em;
 		}
 	}
 	@media screen and (max-width: 768px){
