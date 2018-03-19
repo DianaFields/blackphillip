@@ -81,8 +81,10 @@ body .content {
           width: 100%;
           -webkit-appearance: none;
           border: 1px solid #000;
-          margin: 10px 0;
+          margin: 0;
           padding-left: 10px; }
+        body .content nav .message form label {
+          margin-bottom: 0; }
         body .content nav .message form textarea {
           width: 100%;
           -webkit-appearance: none;
@@ -164,6 +166,15 @@ body .content {
             padding: 0 20px;
             border: 1px solid #c2c2c2;
             margin: 10px 0; }
+      body .content .main .about .clientes ul {
+        padding: 1em 0 3em 0; }
+        body .content .main .about .clientes ul li {
+          border: none;
+          display: inline-block;
+          width: 200px;
+          text-align: center; }
+          body .content .main .about .clientes ul li img {
+            width: 85%; }
     body .content .main .portfolio {
       padding: 50px 10px 10px 10px;
       margin-top: 5em; }

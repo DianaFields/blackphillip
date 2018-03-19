@@ -15,23 +15,38 @@
 
 <div class="col-lg-12 col-xs-12 content">
 	<nav>
+		
 		<ul>
 			<li><a class="page-scroll" href="#about">About</a></li>
 			<li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
 			<li><a class="page-scroll" href="#collaborations">Collaborations</a></li>
-			<li><a class="page-scroll" href="">CV</a></li>
+			<li><a class="page-scroll" href="docs/cv-DianaCampos.pdf" target="_blank">CV</a></li>
 		</ul>
 		<div>
 			<div class="dropdown message">
 				<div class="dropdow-toggle" id="message" data-toggle="dropdown"><p>Leave a message!</p></div>
 				<div class="dropdown-menu" role="menu" aria-labelledby="menu1">
 
-					<form method="post" action="send_form_email.php">
+				<!-- 	<form method="post" action="send_form_email.php">
 						<input type="text" name="name" placeholder="Your Name">
 						<input type="mail" name="email" placeholder="Your e-mail">
 						<textarea name="Write your message" placeholder="Your message"></textarea>
 						<input type="submit" name="Send" value="Send" class="send"> 					
-					</form>
+					</form> -->
+	<form method="post" action="send_form_email.php">
+        
+    <label>Name</label>
+    <input name="name" placeholder="Your name">
+            
+    <label>Email</label>
+    <input name="email" type="email" placeholder="Your e-mail">
+            
+    <label>Message</label>
+    <textarea name="message" placeholder="Message"></textarea>
+            
+    <input id="submit" name="submit" type="submit" value="Send">
+        
+</form>
 
 				</div>
 			</div>
@@ -51,9 +66,11 @@
 		</section>
 		<section class="about col-lg-12 col-xs-12 ">
 			<h1>DIANA \<br>CAMPOS</h1>
-			<h2>WEB DESIGNER BASED IN MEXICO CITY</h2>
-			<p class="col-lg-10">Currently working on ecommerce consulting and in projects as a freelancer. I love designing user experience and user interface. My goal is creating beautiful and functional experiences that have a meaningful impact.<br>
-			I have knowledge of web development, brand design, packaging, editorial and print techniques.</p>
+			<h2>MEXICAN WEB DESIGNER BASED IN MILAN</h2>
+			<p class="col-lg-10">Freelance Web Designer, I have experience working in design agencies, ecommerce consultancy, financial and industrial sector.<br>I have knowledge of web development, brand design, packaging, editorial and print techniques.
+</p><p class="col-lg-10">
+		What I love is designing user experience and user interface. My goal is creating beautiful and functional experiences that have a meaningful impact. I’m always open to new ideas and new challenges, I look forward to hearing from you, don't be shy and leave a message.
+			</p>
 			<div class="skills col-lg-8">
 			<p class="tittle">Skills</p>
 				<ul>
@@ -77,7 +94,18 @@ https://u.magento.com/certification/directory/dev/2459675/">Magento Front End De
 https://u.magento.com/certification/directory/dev/2459675/"><img width="50px"src="images/big_frontend_developer.jpg"></a>
 						</div>
 					</ul>
+					<p class="tittle">Clients and collaborations</p>
+					
 			</div>
+			<div class="clientes col-lg-12">
+				<ul>
+						<li><img src="images/cliente-01.png"></li>
+						<li><img src="images/cliente-02.png"></li>
+						<li><img src="images/cliente-03.png"></li>
+						<li><img src="images/cliente-04.png"></li>
+				</ul>
+			</div>
+
 		</section>
 
 	</div>
@@ -113,7 +141,7 @@ https://u.magento.com/certification/directory/dev/2459675/"><img width="50px"src
 						<div class="image image-03"></div>
 					</a>
 				</div>
-	<!-- 			<div class="col-lg-4 col-xs-12 item">
+				<div class="col-lg-4 col-xs-12 item">
 					<a href="#modalFirst-4" class="portfolio-link" data-toggle="modal">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content">
@@ -122,7 +150,7 @@ https://u.magento.com/certification/directory/dev/2459675/"><img width="50px"src
 							</div>
 						<div class="image image-04"></div>
 					</a>
-				</div> -->
+				</div>
 				 <div class="col-lg-4 col-xs-12 item">
 					<a href="#modalFirst-5" class="portfolio-link" data-toggle="modal">
 							<div class="portfolio-hover">
@@ -289,7 +317,7 @@ https://u.magento.com/certification/directory/dev/2459675/"><img width="50px"src
 						</div>
 					</div>
 				</div>
-			<!-- MODAL 1 ORANGE -->
+			<!-- MODAL 1  -->
 			<div class="portfolio-modal modal fade" id="modalFirst-7" tabindex="-1" role="dialog" aria-hidden="true">
 				<div class="modal-custom modal-content ">
 					<div class="close-modal" data-dismiss="modal"></div>
@@ -307,7 +335,7 @@ https://u.magento.com/certification/directory/dev/2459675/"><img width="50px"src
 						</div>
 					</div>
 				</div>
-			<!-- MODAL 1 ORANGE -->
+			<!-- MODAL 1  -->
 			<div class="portfolio-modal modal fade" id="modalFirst-8" tabindex="-1" role="dialog" aria-hidden="true">
 				<div class="modal-custom modal-content ">
 					<div class="close-modal" data-dismiss="modal"></div>
@@ -325,14 +353,13 @@ https://u.magento.com/certification/directory/dev/2459675/"><img width="50px"src
 						</div>
 					</div>
 				</div>
-			<!-- MODAL 1 ORANGE -->
+			<!-- MODAL 1  -->
 			<div class="portfolio-modal modal fade" id="modalFirst-9" tabindex="-1" role="dialog" aria-hidden="true">
 				<div class="modal-custom modal-content ">
 					<div class="close-modal" data-dismiss="modal"></div>
 						<div class="container">
 								<div class="content-project">
 									<div class="modal-body">
-										<!-- Project Details Go Here -->
 											<div class="text">
 												<p><strong>Orange e-Consulting</strong> is a Mexican eCommerce consultance. They ask me to design their graphic identity that communicate a fresh concept.
 												<ul><li>August 2017</li>
@@ -385,7 +412,7 @@ https://u.magento.com/certification/directory/dev/2459675/"><img width="50px"src
 							Artist</p>
 						<p>
 							<strong>María Romero</strong><br>
-							Art Director</p>
+							Art Direction</p>
 						<p><strong>Iván W. Jiménez</strong><br>
 							Graphic Design</p>
 						<p><strong>Grupo Horma</strong><br>
@@ -403,8 +430,11 @@ https://u.magento.com/certification/directory/dev/2459675/"><img width="50px"src
 							Digital Edition</p>
 						<p>
 							<strong>Fernando Arteaga</strong><br>
-							Video Edition</p>
-							<a href="https://www.instagram.com/grupohorma/">@grupohorma</a>
+							Video Edition</p><br>
+							<p><strong>To know more about this project visit:</strong></p>
+							<a target="_blank" href="https://www.instagram.com/grupohorma/">@grupohorma</a><br>
+							<a target="_blank" href="http://www.grupohorma.com/loteria-de-artistas/">www.grupohorma.com/loteria-de-artistas/</a><br>
+							<a target="_blank" href="http://www.loteriadeartistas.mx">www.loteriadeartistas.mx</a><br>
 
 						</div>
 
