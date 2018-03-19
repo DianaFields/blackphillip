@@ -279,6 +279,8 @@ body .content {
           height: 40px;
           margin: 0 auto;
           display: block; }
+        body .content .main .portfolio .modal-custom .container {
+          width: 100%; }
         body .content .main .portfolio .modal-custom .content-project .modal-body img {
           width: 70%;
           margin-bottom: 3em; }
